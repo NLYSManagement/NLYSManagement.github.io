@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                .whatsapp-button {
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                    display: inline-block;
+                    background-color: #25d366;
+                    color: white;
+                    padding: 10px 35px;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    text-align: center;
+                    cursor: pointer;
+                    transition: transform 0.3s ease; /* Agregamos una transición de transformación */
+                }
+                .whatsapp-button:hover,
+                .whatsapp-button:focus {
+                    transform: scale(1.1); /* Cambio de tamaño al hacer clic o pasar el cursor */
+                }
+                .whatsapp-logo {
+                    width: 30px;
+                    vertical-align: middle;
+                    margin-right: 5px;
+                }
+            </style>
+            <html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .color-acento {
+            color: #0519f6; /* Cambiar este color según tus preferencias */
+        }
+    
+
+    </style>
+    <style>
+        .loader {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        
+        .loader img {
+            width: 80px;
+            animation: spin 2s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Estilos adicionales para el contenido de la página */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            margin: 10px;
+        }
+        
+        .k {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .k a {
+            margin: 10px;
+        }
+        
+        button {
+            border-radius: 10px;
+            font-size: 16px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+        }
+        
+        @media screen and (max-width: 480px) {
+            header {
+                flex-direction: column;
+            }
+            
+            .k {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="loader">
+        <img src="logo1.png" alt="Cargando...">
+    </div>
+
+    <script>
+        window.addEventListener('load', function() {
+            var loader = document.querySelector('.loader');
+            loader.style.display = 'none';
+        });
+    </script>
+
+    <header>
+        <div class="logo">
+            <img src="logo1.png" alt="AGINSE" style="width: 80px;">
+        </div>
+    
+        <div class="k">
+            <a href="#AGINSE" id="nosotros" style="text-decoration:none; color:rgb(15, 14, 14);">
+                <button>NOSOTROS</button>
+            </a>
+            <a href="#seguros" id="servicios" style="text-decoration:none; color:rgb(15, 14, 14);">
+                <button>INFORMES</button>
+            </a>
+            <a href="#cara" id="contactanos" style="text-decoration:none; color:rgb(15, 14, 14);">
+                <button>CONTACTANOS</button>
+            </a>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section id="hero">
+            <h2>Solo una foto te <span class="color-acento">  puede llevar al exito </span></h2>
+        </section>
+        
+        <section id="AGINSE">
+            <div class="img-container"></div>
+           
+            <h2><span class="color-acento"></span></h2>
+            
+            <p></p>
+            <p></p>
+            <img src="logo2.png" alt="Logo 2" class="logo2">
+            <p >En NLYS, no solo creamos anuncios, creamos experiencias memorables. Somos un equipo dedicado a dar vida a tus ideas y llevarlas al siguiente nivel. Nuestra pasión por la creatividad y la innovación es lo que nos impulsa a construir marcas que perduran en la mente de las personas. Desde estrategias audaces hasta diseños impactantes, estamos aquí para hacer que tu visión cobre vida.</p>
+
+        </section>
+        
+        <section id="seguros">
+            <div class="programas">
+                <div class="carta">
+                    <h3 style="color:white;">CONTACTO </h3>
+                    <a id="solicitar-seguro" href="pagina2.html" style="text-decoration:none; color:rgb(15, 14, 14);">
+                        <button style="border-radius: 10px;">Ver servicio</button>
+                    </a>
+                </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+           
+          </section>
+        
+        <section id="cara">
+            <h2> <span class="color-acento">Contáctanos por aquí</span></h2>
+            <div>
+                <div style="text-align: center;">
+                    <a href="https://api.whatsapp.com/send?phone=525533324014" target="_blank" class="whatsapp-button">
+                        <img src="Wha.png" alt="AGINSE" class="whatsapp-logo">
+                      
+                    </a>
+                <br>
+              
+
+                <div style="text-align: center;">
+                    <img src="tel.png" alt="AGINSE" style="width: 100px;">
+                    <br>
+                    <a href="tel:+5533324014">
+                        <button>Llámanos</button>
+                    </a>
+                    <br>
+                    <br>
+                    <br>
+
+
+                    <div style="text-align: center;">
+                        <img src="insta.png" alt="AGINSE" style="width: 100px;">
+                        <br>
+                        <br>
+
+
+
+                    <a href="https://www.instagram.com/onlys_management/" target="_blank">
+                        <button>instagram</button>
+                    </a>
+            </div>
+        </section>
+    </div>
+    
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="normalize.css">
+</body>
+</html>
